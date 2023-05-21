@@ -1,5 +1,5 @@
 
-## Work: LastActivityView.exe , RecentFilesView.exe , UserAssistView.exe
+## Work: LastActivityView.exe ✔ , RecentFilesView.exe ✔ , UserAssistView.exe ✔
 
 # Image
 ![image](https://github.com/Yubir/NirSoftViewerClearTool/assets/101859341/de71d5e8-0ed1-4dd4-a248-ace2ce72fda9)
