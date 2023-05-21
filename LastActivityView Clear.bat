@@ -1,3 +1,4 @@
+
 REM Clearing Event logs
 echo Clearing Event logs
 FOR /F "tokens=*" %%G IN ('wevtutil el') DO (wevtutil cl "%%G")
@@ -23,6 +24,7 @@ reg delete "HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft
 REM Deleting Software Uninstall Registry keys
 echo Deleting Software Uninstall Registry keys
 reg delete "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall" /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall" /f
 reg delete "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall" /f
 
 REM Deleting Software Installation Registry keys
